@@ -112,6 +112,13 @@ layout: about
   <thead>
     <tr>
       <th align="center" style="width: 240px;">
+        <a href="https://flowus.cn/share/eebf2144-8db7-4d68-b31e-bc2c116871de">
+          <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/32983588/243899272-092eeb46-9172-4c10-9e72-53561ff37a00.png" height="200px"><br>
+          <sub>首席赞助商 ORENCEAI</sub><br>
+          <sub>全新的 ChatGPT 人工智能对话平台</sub>
+        </a>
+      </th>
+      <th align="center" style="width: 240px;">
         <a href="https://www.jetbrains.com/?from=hexo-theme-fluid">
           <img src="https://raw.githubusercontent.com/fluid-dev/static/690616966f34a58d66aa15ac7b550dd7bbc03967/hexo-theme-fluid/jetbrains.svg" height="200px"><br>
           <sub>免费开发工具提供方 JetBrains</sub><br>
@@ -128,7 +135,7 @@ layout: about
 
 英文文档翻译：[@EatRice](https://eatrice.top/) [@橙子杀手](https://ruru.eatrice.top) [@Sinetian](https://sinetian.github.io/)
 
-其他贡献：[@zhugaoqi](https://github.com/zhugaoqi) [@julydate](https://github.com/julydate)
+其他贡献：[@zhugaoqi](https://github.com/zhugaoqi) [@julydate](https://github.com/julydate) [@xiyuvi](https://xiyu.pro/)
 
 如你也想贡献代码，可参照[贡献指南](https://hexo.fluid-dev.com/docs/contribute/)
 
