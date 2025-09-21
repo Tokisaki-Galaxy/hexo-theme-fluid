@@ -7,6 +7,7 @@ page.banner_img_height = theme.index.banner_img_height
 page.banner_mask_alpha = theme.index.banner_mask_alpha
 %>
 
+<h1 style="display: none"><%= config.title %></h1>
 <% page.posts.each(function (post) { %>
   <div class="row mx-auto index-card">
     <% var post_url = url_for(post.path), index_img = post.index_img || theme.post.default_index_img %>
