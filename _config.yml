@@ -1089,18 +1089,24 @@ static_prefix:
   github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
 
   jquery: https://lib.baomitu.com/jquery/3.6.4/
+  jquery_sri: sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=
 
   bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
+  bootstrap_sri: sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=
+  bootstrap_css_sri: sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=
 
   prismjs: https://lib.baomitu.com/prism/1.29.0/
 
   tocbot: https://lib.baomitu.com/tocbot/4.20.1/
 
   typed: https://lib.baomitu.com/typed.js/2.0.12/
+  typed_sri: sha256-UVQ5HtHTmtqBT3KY5cd4AvI47pp0gJwIM+q45HD9oLk=
 
   fancybox: https://lib.baomitu.com/fancybox/3.5.7/
 
   nprogress: https://lib.baomitu.com/nprogress/0.2.0/
+  nprogress_sri: sha256-XWzSUJ+FIQ38dqC06/48sNRwU1Qh3/afjmJ080SneA8=
+  nprogress_css_sri: sha256-pMhcV6/TBDtqH9E9PWKgS+P32PVguLG8IipkPyqMtfY=
 
   mathjax: https://lib.baomitu.com/mathjax/3.2.2/
 

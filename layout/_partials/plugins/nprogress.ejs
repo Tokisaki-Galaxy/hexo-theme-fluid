@@ -1,6 +1,6 @@
 <% if (theme.fun_features.progressbar && theme.fun_features.progressbar.enable){ %>
-  <%- js_ex(theme.static_prefix.nprogress, 'nprogress.min.js') %>
-  <%- css_ex(theme.static_prefix.nprogress, 'nprogress.min.css') %>
+<script src="<%- theme.static_prefix.nprogress %>nprogress.min.js" integrity="<%- theme.static_prefix.nprogress_sri %>" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="<%- theme.static_prefix.nprogress %>nprogress.min.css" integrity="<%- theme.static_prefix.nprogress_css_sri %>" crossorigin="anonymous">
 
   <script>
     NProgress.configure(<%- JSON.stringify(theme.fun_features.progressbar.options || '{}') %>)

@@ -1,6 +1,6 @@
 <%- partial('_partials/plugins/nprogress.ejs') %>
-<%- js_ex(theme.static_prefix.jquery, 'jquery.min.js') %>
-<%- js_ex(theme.static_prefix.bootstrap, 'js/bootstrap.min.js') %>
+<script src="<%- theme.static_prefix.jquery %>jquery.min.js" integrity="<%- theme.static_prefix.jquery_sri %>" crossorigin="anonymous"></script>
+<script src="<%- theme.static_prefix.bootstrap %>js/bootstrap.min.js" integrity="<%- theme.static_prefix.bootstrap_sri %>" crossorigin="anonymous"></script>
 <%- js_ex(theme.static_prefix.internal_js, 'events.js') %>
 <%- js_ex(theme.static_prefix.internal_js, 'plugins.js') %>
 
