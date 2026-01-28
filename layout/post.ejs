@@ -35,18 +35,11 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.post.banner_mask_alpha
                 <% } %>
               </p>
             <% } %>
-            <% if (page.encrypt === true) { %>
+            <div class="markdown-body">
               <%- inject_point('postMarkdownBegin') %>
               <%- page.content %>
-              <%- partial('_partials/plugins/encrypt') %>
               <%- inject_point('postMarkdownEnd') %>
-            <% } else { %>
-              <div class="markdown-body">
-                <%- inject_point('postMarkdownBegin') %>
-                <%- page.content %>
-                <%- inject_point('postMarkdownEnd') %>
-              </div>
-            <% } %>
+            </div>
             <hr/>
             <div>
               <%- inject_point('postMetaBottom') %>
